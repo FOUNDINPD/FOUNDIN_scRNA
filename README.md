@@ -1,7 +1,7 @@
 # FOUNDIN_scRNA
 Scripts/Code for analyzing single cell RNA-seq data from FOUNDIN PD.
 
-There is a perl script to generate count matrix from Cell Ranger pipeline and a R script to integrate data from all the samples/cell lines.
+There is a perl script to generate count matrix from Cell Ranger pipeline (v 3.1.0) and a R script to integrate data from all the samples/cell lines.
 
 SessionInfo for R
 
