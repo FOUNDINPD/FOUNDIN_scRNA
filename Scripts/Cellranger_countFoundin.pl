@@ -7,7 +7,7 @@
 ## perl Cellranger_countFoundin.pl --sampleFile ../FASTQ_all/Sample_names.txt --refDirName /media/root/dataE/FOUNDIN_vikas/Database/GRCh38_foundinGTF  --resultDir /media/root/dataE/FOUNDIN_vikas/Counts_cellRanger/ --localMem 50 > Commands_run27.sh
 ## 
 ##
-## sampleFile should be the tab sep 3 column file. First column contains the sample ID (not the full fastq file name but the first part) example D17-8753_S1_L001_I1_001.fastq.gz should be only written D17-8753 (notice part before first underscore) and second column is the directory with fastq files for that sample and the third column is the ID for output.
+## sampleFile should be a tab separated 3 column file. First column contains the sample ID (not the full fastq file name but the first part) example D17-8753_S1_L001_I1_001.fastq.gz should be only written D17-8753 (notice part before first underscore) and second column is the directory with fastq files for that sample and the third column is the ID for output.
 ## refDirName is the directory contaning genome reference build by cellranger mkref. Example command
 ##
 ## cellranger mkref --genome=GRCh38_foundinGTF --fasta=./fasta/genome.fa --genes=./GTF_foundin/gencode_v29.lncipedia_v5_2_hc.annotation.gtf
