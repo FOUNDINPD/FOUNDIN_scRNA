@@ -2,7 +2,7 @@
 
 
 ##=============================================================================================
-## USAGE: either run it using nohup or generate the commands to run later one by on or modify it according to your job submission system
+## USAGE: either run it using nohup or generate the commands to run later one by one or modify it according to your job submission system
 ## perl Cellranger_countFoundin.pl --sampleFile Sample_test.txt --refDirName /media/root/dataE/FOUNDIN_vikas/Database/GRCh38_foundinGTF  --resultDir /media/root/dataE/FOUNDIN_vikas/Counts_cellRanger/ --localMem 50
 ## perl Cellranger_countFoundin.pl --sampleFile ../FASTQ_all/Sample_names.txt --refDirName /media/root/dataE/FOUNDIN_vikas/Database/GRCh38_foundinGTF  --resultDir /media/root/dataE/FOUNDIN_vikas/Counts_cellRanger/ --localMem 50 > Commands_run27.sh
 ## 
