@@ -3,7 +3,7 @@ Scripts/Code for analyzing single cell RNA-seq data from FOUNDIN PD.
 
 There is a perl script to generate count matrix from Cell Ranger pipeline (v 3.1.0) and a R script to integrate data from all the samples/cell lines.
 
-# SessionInfo for R
+# R SessionInfo
 
 R version 3.6.0 (2019-04-26)
 Platform: x86_64-pc-linux-gnu (64-bit)
