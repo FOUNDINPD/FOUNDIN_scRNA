@@ -96,12 +96,6 @@ iPSCsDopa <- CreateSeuratObject(All_joined_countMatrix, meta.data = metaInfoAll,
 iPSCsDopa[["percent.mt"]] <- PercentageFeatureSet(iPSCsDopa, pattern = "^MT-")
 
 
-#VlnPlot(iPSCsDopa, features = c("nFeature_RNA", "nCount_RNA", "percent.mt"), ncol = 3)
-
-
-#plot1 <- FeatureScatter(iPSCsDopa, feature1 = "nCount_RNA", feature2 = "percent.mt")
-#plot2 <- FeatureScatter(iPSCsDopa, feature1 = "nCount_RNA", feature2 = "nFeature_RNA")
-#CombinePlots(plots = list(plot1, plot2))
 
 iPSCsDopa <- subset(iPSCsDopa, subset =  percent.mt < 50)
 
